@@ -1,0 +1,10 @@
+ PROGRAM ulang_nama;
+USES CRT;
+VAR i : integer; nama : string[30];
+BEGIN
+CLRSCR;
+nama:='Zahratussita';
+FOR i := 1 to 5 do
+WRITELN(nama);
+READLN;
+END.

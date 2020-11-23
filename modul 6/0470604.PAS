@@ -1,0 +1,12 @@
+PROGRAM urut;
+USES CRT;
+VAR i : integer;
+BEGIN
+CLRSCR;
+FOR i := 1 to 10 DO
+BEGIN
+GOTOXY(40,i+2);
+WRITE(i:10);
+END;
+readln;
+end.

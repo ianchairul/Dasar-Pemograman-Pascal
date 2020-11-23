@@ -1,0 +1,25 @@
+program segitiga_sama_sisi;
+uses crt;
+var i,j,k,l : integer;
+begin
+clrscr;
+   for i:=5 downto 1 do
+   begin
+        for j:=1 to i do
+        begin
+        write(' ');
+        end;
+
+        for k:=4 downto i do
+        begin
+        write('*');
+        end;
+
+        for l:=5 downto i do
+        begin
+        write('*');
+        end;
+   readln;
+   end;
+readln;
+end.
